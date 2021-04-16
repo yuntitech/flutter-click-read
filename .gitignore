@@ -35,7 +35,14 @@ xcuserdata
 Icon?
 .tags*
 
-build/
+!build/
+build/*
+!build/host
+build/host/*
+!build/host/outputs/
+build/host/outputs/*
+!build/host/outputs/repo
+
 .android/
 .ios/
 .flutter-plugins
